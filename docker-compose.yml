@@ -1,7 +1,7 @@
 version: '3'
 services:
-  jhooq-springboot-container:
-    image: jhooq-spring-boot-docker-compose:1
+  spring-boot-dockerize:
+    image: spring-boot-docker
     build:
       context: ./
       dockerfile: Dockerfile
