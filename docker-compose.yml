@@ -8,4 +8,4 @@ services:
     volumes:
       - /data/jhooq-springboot-container
     ports:
-      - "9090:9090"
+      - "7070:7070"
